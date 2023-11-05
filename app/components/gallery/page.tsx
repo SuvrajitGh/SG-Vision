@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { CardType,cards } from "@/app/utils/Gallerydata";
 const Example = () => {
   return (
-    <div className="bg-neutral-800">
+    <div className="bg-[#000]">
       <div className="flex h-48 items-center justify-center">
         <span className="font-semibold uppercase text-white tracking-[12px]">
           My Photography Work
@@ -24,7 +24,7 @@ const HorizontalScrollCarousel = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[300vh] bg-neutral-900">
+    <section ref={targetRef} className="relative h-[300vh] bg-[#000]">
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4">
           {cards.map((card) => {

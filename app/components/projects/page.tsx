@@ -4,7 +4,7 @@ import { motion, scroll } from "framer-motion";
 const Project = () => {
   return (
     <>
-      <section className="grid gap-8 p-5 mt-5 md:p-5">
+      <section className="grid gap-8 p-5 mt-5 md:p-5 bg-[#000]">
       <h1 className="text-4xl tracking-[15px] text-center uppercase">Projects</h1>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl::grid-cols-4 gap-5">
      
