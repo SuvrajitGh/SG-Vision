@@ -14,7 +14,7 @@ type Props = {
 
 const ExperienceCard = (props: Props) => {
   return (
-    <div className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[390px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <div className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{ y: -100, opacity: 0 }}
         transition={{duration:1,y:0}}
@@ -30,7 +30,7 @@ const ExperienceCard = (props: Props) => {
         <div className="flex space-x-2 programing_languages">
           {props.programmingLanguages.map((languageData, index) => (
             <div key={index}>
-              <div className="flex space-x-2 my-1 programing_languages">
+              <div className="flex space-x-2 my-2 programing_languages">
                 {languageData.images.map((image, imageIndex) => (
                   <Image
                     key={imageIndex}
@@ -46,8 +46,8 @@ const ExperienceCard = (props: Props) => {
           ))}
         </div>
       </div>
-      <p className="uppercase py-1 text-gray-300">{props.mode}</p>
-      <ul className=" list-disc text-sm">
+      <p className="uppercase py-5 text-gray-300">{props.mode}</p>
+      <ul className=" list-disc">
         {props.summarypoints.map((point, index) => (
           <li key={index}>{point}</li>
         ))}

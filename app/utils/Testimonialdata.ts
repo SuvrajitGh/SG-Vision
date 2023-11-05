@@ -41,5 +41,12 @@ export const TestimonialData = [
         content:
             "Suvrajit's willingness to share his knowledge and expertise is commendable. He patiently explains complex concepts, making learning enjoyable and accessible.In addition to his technical skills, Suvrajit's friendly and approachable nature makes him an invaluable friend and mentor. I'm grateful for his continuous support in my academic journey.",
     },
+    {
+        id: 7,
+        imageSrc: "/archishman.jpeg",
+        name: "Archisman",
+        content:
+            "If  you have ever seen a hard working person who loves to work and also does it with his full potential is Suvrajit.I have worked and learned various topics from him.It is always a learning experience working with him.",
+    },
 
 ];
