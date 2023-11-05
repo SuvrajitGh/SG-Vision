@@ -9,7 +9,7 @@ interface TestimonialCardProps {
 
 const TestimonialCard = ({ imageSrc, name, content }: TestimonialCardProps) => {
   return (
-    <div className="w-full h-72 max-w-xl px-8 py-4 mt-16 bg-slate-800 rounded-lg shadow-lg dark:bg-gray-800 mx-5">
+    <div className="w-full h-72 max-w-xl px-8 py-4 mt-16 bg-slate-800 rounded-lg shadow-lg dark:bg-gray-900 mx-5">
       <div className="flex justify-center -mt-16 md:justify-end">
         <Image
           width={80}
