@@ -9,7 +9,7 @@ interface TestimonialCardProps {
 
 const TestimonialCard = ({ imageSrc, name, content }: TestimonialCardProps) => {
   return (
-    <div className="w-full h-72 max-w-xl px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800 mx-5">
+    <div className="w-full h-72 max-w-xl px-8 py-4 mt-16 bg-slate-800 rounded-lg shadow-lg dark:bg-gray-800 mx-5">
       <div className="flex justify-center -mt-16 md:justify-end">
         <Image
           width={80}
@@ -19,7 +19,7 @@ const TestimonialCard = ({ imageSrc, name, content }: TestimonialCardProps) => {
           src={imageSrc}
         />
       </div>
-      <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
+      <h2 className="mt-2 text-xl font-semibold text-gray-600 dark:text-white md:mt-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
