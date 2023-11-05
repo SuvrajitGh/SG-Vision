@@ -47,7 +47,7 @@ const ExperienceCard = (props: Props) => {
         </div>
       </div>
       <p className="uppercase py-5 text-gray-300">{props.mode}</p>
-      <ul className=" list-disc">
+      <ul className=" list-disc text-sm">
         {props.summarypoints.map((point, index) => (
           <li key={index}>{point}</li>
         ))}

@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { CardType,cards } from "@/app/utils/Gallerydata";
 const Example = () => {
   return (
-    <div className="bg-[#000]">
+    <div className="bg-[#000]  mt-10">
       <div className="flex h-48 items-center justify-center">
         <span className="font-semibold uppercase text-white tracking-[12px]">
           My Photography Work
