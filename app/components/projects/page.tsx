@@ -1,6 +1,5 @@
 import projectdata from "@/app/utils/projectdata";
 import { ProjectCard } from "@/app/Templates/ProjectCard";
-import { motion, scroll } from "framer-motion";
 const Project = () => {
   return (
     <>
