@@ -15,7 +15,7 @@ export const TestimonialData = [
     },
     {
         id: 3,
-        imageSrc: "/Kaustav.jpeg",
+        imageSrc: "/kaustav.jpeg",
         name: "Kaustav",
         content:
             "I had worked with Suvrajit. He is indeed a great personality and my overall experience of working with him was really great. I had this opportunity of working and learning from him. He really has huge knowledge on various technologies which highly fascinates me. Overall, he is a great person, friend, and guide.",
