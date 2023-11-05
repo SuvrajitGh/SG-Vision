@@ -6,14 +6,15 @@ import MoreProjects from "./components/moreprojects/page";
 import Projects from "./components/projects/page";
 import Skills from "./components/skills/page";
 import Testimonial from "./components/testimonials/page";
+import Welcomestagger from "./components/welcomestagger/page";
 import WorkExperience from "./components/workexperience/page";
 
 export default function Home() {
   return (
     <>
-
         <Header />
         <Hero />
+        <Welcomestagger/>
         <Projects />
         <MoreProjects />
         <Skills />
@@ -21,7 +22,6 @@ export default function Home() {
         <Gallery />
         <Testimonial />
         <Footer />
-
     </>
   );
 }

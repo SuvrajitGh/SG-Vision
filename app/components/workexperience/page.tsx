@@ -9,7 +9,7 @@ const WorkExperience = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="h-screen gap-8 p-5 mt-5 md:p-5 overflow-hidden"
+        className="h-screen gap-8 p-5 mt-5  md:p-5 overflow-hidden"
       >
         <h1 className="text-4xl mb-12 tracking-[15px] text-center uppercase">Experience</h1>
         <div className="flex snap overflow-x-scroll gap-10 mt-5 scrollbar-thin scrollbar-tract-gray-400/20 scrollbar-thumb-indigo-400 scrollbar-rounded-full">

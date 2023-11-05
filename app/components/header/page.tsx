@@ -82,7 +82,7 @@ const EncryptButton = () => {
 const Header = () => {
   return (
     <>
-      <header className="sticky shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md top-0 p-3 flex justify-between max-w-8xl mx-auto z-20 items-center  xl:items-center ">
+      <header className="sticky shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md top-0 p-3 flex justify-between max-w-8xl mx-auto z-20 items-center  xl:items-center">
         <motion.div
           initial={{
             x: -500,
