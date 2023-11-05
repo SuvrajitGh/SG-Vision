@@ -30,7 +30,7 @@ const ExperienceCard = (props: Props) => {
         <div className="flex space-x-2 programing_languages">
           {props.programmingLanguages.map((languageData, index) => (
             <div key={index}>
-              <div className="flex space-x-2 my-2 programing_languages">
+              <div className="flex space-x-2 my-1 programing_languages">
                 {languageData.images.map((image, imageIndex) => (
                   <Image
                     key={imageIndex}
@@ -46,7 +46,7 @@ const ExperienceCard = (props: Props) => {
           ))}
         </div>
       </div>
-      <p className="uppercase py-5 text-gray-300">{props.mode}</p>
+      <p className="uppercase py-1 text-gray-300">{props.mode}</p>
       <ul className=" list-disc text-sm">
         {props.summarypoints.map((point, index) => (
           <li key={index}>{point}</li>
