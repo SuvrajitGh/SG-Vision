@@ -4,7 +4,7 @@ export const experienceData = [
     imageSrc: "/EuphoriaGenX.jpg",
     title: "Euphoria GenX",
     subtitle: "MERN Stack-Developer",
-    mode: "Indutry Training",
+    mode: "Industry Training",
     programmingLanguages: [
       {
         images: ["/MongoDb.png"],

@@ -12,16 +12,16 @@ import WorkExperience from "./components/workexperience/page";
 export default function Home() {
   return (
     <>
-        <Header />
-        <Hero />
-        <Welcomestagger/>
-        <Projects />
-        <MoreProjects />
-        <Skills />
-        <WorkExperience />
-        <Gallery />
-        <Testimonial />
-        <Footer />
+      <Header />
+      <Hero />
+      <Welcomestagger />
+      <Projects />
+      <MoreProjects />
+      <Skills />
+      <WorkExperience />
+      <Gallery />
+      <Testimonial />
+      <Footer />
     </>
   );
 }
