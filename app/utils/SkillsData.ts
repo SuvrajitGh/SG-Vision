@@ -76,7 +76,7 @@ export const skills = [
       },
       {
         name: "Python",
-        image: "/Python.png",
+        image: "/python.png",
       },
       {
         name: "Oracle",
@@ -88,7 +88,7 @@ export const skills = [
       },
       {
         name: "Firebase",
-        image: "/firebase.png",
+        image: "/Firebase.png",
       },
       {
         name: "Java",
