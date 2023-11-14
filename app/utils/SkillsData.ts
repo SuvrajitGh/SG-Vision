@@ -57,6 +57,10 @@ export const skills = [
         name: "Material UI",
         image: "/MaterialUi.png",
       },
+      {
+        name: "SCSS",
+        image: "/scss.png",
+      },
     ],
   },
   {
