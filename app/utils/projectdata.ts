@@ -8,9 +8,9 @@ interface Project {
 const projectdata: Project[] = [
   {
     id: 1,
-    image:"/YT.jpg",
-    title: "Youtube Clone",
-    subtitle: "React,Tailwind CSS,Typescript,Material UI",
+    image:"/Cloud_share.jpg",
+    title: "Cloud Share",
+    subtitle: "Next Js,Tailwind CSS,Typescript,Shad Cn",
   },
   {
     id: 2,
